@@ -1,0 +1,80 @@
+# Baseline Profile for Expensee
+# Critical User Journeys: Cold start, Dashboard, Horizontal tab switching, Add/Save Transaction, Budgets, Analytics, Settings, Scrolling
+
+# Core Application & Startup
+Lcom/expensee/MainActivity;
+HSPLcom/expensee/MainActivity;-><init>()V
+HSPLcom/expensee/MainActivity;->onCreate(Landroid/os/Bundle;)V
+HSPLcom/expensee/MainActivityKt;->FinanceApp(Lcom/expensee/ui/FinanceViewModel;Landroidx/compose/runtime/Composer;I)V
+HSPLcom/expensee/MainActivityKt;->ModernNavTabItem(ZLkotlin/jvm/functions/Function0;Landroidx/compose/ui/graphics/vector/ImageVector;Ljava/lang/String;Landroidx/compose/ui/Modifier;Landroidx/compose/runtime/Composer;II)V
+
+# State & Architecture
+Lcom/expensee/ui/FinanceViewModel;
+HSPLcom/expensee/ui/FinanceViewModel;-><init>(Landroid/app/Application;)V
+HSPLcom/expensee/ui/FinanceViewModel;->getStartupState()Lkotlinx/coroutines/flow/StateFlow;
+HSPLcom/expensee/ui/FinanceViewModel;->getDashboardState()Lkotlinx/coroutines/flow/StateFlow;
+HSPLcom/expensee/ui/FinanceViewModel;->setTab(Lcom/expensee/ui/AppTab;)V
+HSPLcom/expensee/ui/FinanceViewModel;->addTransaction(DLjava/lang/String;JLjava/lang/String;Ljava/lang/String;Ljava/lang/String;J)V
+Lcom/expensee/ui/DashboardUiState;
+Lcom/expensee/ui/StartupState;
+Lcom/expensee/ui/AppTab;
+HSPLcom/expensee/ui/AppTab;->toTabOrder(Lcom/expensee/ui/AppTab;)I
+
+# Navigation Motion System (iPhone-style spring slide transitions)
+Lcom/expensee/ui/theme/AppMotion;
+HSPLcom/expensee/ui/theme/AppMotion;->getScreenSlideSpring()Landroidx/compose/animation/core/FiniteAnimationSpec;
+HSPLcom/expensee/ui/theme/AppMotion;->getTouchSpring()Landroidx/compose/animation/core/SpringSpec;
+HSPLcom/expensee/ui/theme/AppMotion;->getEaseSpring()Landroidx/compose/animation/core/SpringSpec;
+HSPLcom/expensee/ui/theme/AppMotionKt;->tactilePress(Landroidx/compose/ui/Modifier;FLandroidx/compose/foundation/interaction/MutableInteractionSource;)Landroidx/compose/ui/Modifier;
+Lcom/expensee/ui/theme/AppDateFormatters;
+HSPLcom/expensee/ui/theme/AppDateFormatters;->formatDayGroup(J)Ljava/lang/String;
+HSPLcom/expensee/ui/theme/AppDateFormatters;->formatDateTime(J)Ljava/lang/String;
+HSPLcom/expensee/ui/theme/AppDateFormatters;->formatDate(J)Ljava/lang/String;
+
+# UI Screens (Cold Start & Main Tabs)
+HSPLcom/expensee/ui/screens/DashboardScreenKt;->DashboardScreen(Lcom/expensee/ui/DashboardUiState;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;Landroidx/compose/ui/Modifier;Landroidx/compose/runtime/Composer;III)V
+HSPLcom/expensee/ui/screens/DashboardScreenKt;->SummaryCard(Ljava/lang/String;DDDLcom/expensee/domain/BudgetCalculation;Lkotlin/jvm/functions/Function0;Landroidx/compose/ui/Modifier;Landroidx/compose/runtime/Composer;II)V
+HSPLcom/expensee/ui/screens/TransactionsHistoryScreenKt;->TransactionsHistoryScreen(Ljava/util/List;Ljava/util/List;IILjava/lang/String;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;Landroidx/compose/ui/Modifier;Landroidx/compose/runtime/Composer;III)V
+HSPLcom/expensee/ui/screens/TransactionsHistoryScreenKt;->TransactionRowItem(Lcom/expensee/data/model/TransactionEntity;Lcom/expensee/data/model/CategoryEntity;Ljava/lang/String;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Landroidx/compose/ui/Modifier;Landroidx/compose/runtime/Composer;II)V
+HSPLcom/expensee/ui/screens/AnalyticsScreenKt;->AnalyticsScreen(Ljava/util/List;Ljava/util/List;Ljava/util/List;IILjava/lang/String;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function2;Lcom/expensee/domain/LearnedPatternReport;Landroidx/compose/ui/Modifier;Landroidx/compose/runtime/Composer;III)V
+HSPLcom/expensee/ui/screens/BudgetsScreenKt;->BudgetsScreen(Lcom/expensee/data/model/BudgetEntity;Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;IILjava/lang/String;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function0;Landroidx/compose/ui/Modifier;Landroidx/compose/runtime/Composer;III)V
+HSPLcom/expensee/ui/screens/SavingsAndGoalsScreenKt;->SavingsAndGoalsScreen(Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;DDLjava/lang/String;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function3;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function3;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Landroidx/compose/ui/Modifier;Landroidx/compose/runtime/Composer;IIII)V
+HSPLcom/expensee/ui/screens/OnboardingScreenKt;->OnboardingScreen(Lkotlin/jvm/functions/Function7;Landroidx/compose/ui/Modifier;Landroidx/compose/runtime/Composer;II)V
+
+# Input Sheets & Dialogs
+HSPLcom/expensee/ui/components/AddTransactionSheetKt;->AddTransactionSheet(Ljava/util/List;Lcom/expensee/data/model/TransactionEntity;Ljava/lang/String;Ljava/lang/String;Lkotlin/jvm/functions/Function7;Lkotlin/jvm/functions/Function0;Landroidx/compose/runtime/Composer;II)V
+HSPLcom/expensee/ui/components/SetIncomeSheetKt;->SetIncomeSheet(DDLjava/lang/String;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function0;Landroidx/compose/runtime/Composer;II)V
+HSPLcom/expensee/ui/components/CustomizeProfileSheetKt;->CustomizeProfileSheet(Ljava/lang/String;DDLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Lkotlin/jvm/functions/Function6;Lkotlin/jvm/functions/Function0;Landroidx/compose/runtime/Composer;II)V
+
+# Mathematical and Domain Engines
+Lcom/expensee/domain/FinancialEngine;
+HSPLcom/expensee/domain/FinancialEngine;->calculateIncomeAndExpenses(Ljava/util/List;)Lkotlin/Pair;
+HSPLcom/expensee/domain/FinancialEngine;->calculateMonthlyIncome(Ljava/util/List;)D
+HSPLcom/expensee/domain/FinancialEngine;->calculateMonthlyExpenses(Ljava/util/List;)D
+HSPLcom/expensee/domain/FinancialEngine;->calculateAvailableBalance(DD)D
+HSPLcom/expensee/domain/FinancialEngine;->calculateSavings(DD)D
+HSPLcom/expensee/domain/FinancialEngine;->calculateSavingsRate(DD)D
+HSPLcom/expensee/domain/FinancialEngine;->calculateBudgetStatus(DD)Lcom/expensee/domain/BudgetCalculation;
+HSPLcom/expensee/domain/FinancialEngine;->calculateCategoryTotals(Ljava/util/List;Ljava/lang/String;)Ljava/util/Map;
+HSPLcom/expensee/domain/FinancialEngine;->formatAmount(DLjava/lang/String;)Ljava/lang/String;
+
+Lcom/expensee/domain/FinancialPatternEngine;
+HSPLcom/expensee/domain/FinancialPatternEngine;->analyzeAndEstimate(Ljava/util/List;Ljava/util/List;IIDDLjava/lang/String;)Lcom/expensee/domain/LearnedPatternReport;
+
+# Persistence & Data Access
+Lcom/expensee/data/AppDatabase;
+Lcom/expensee/data/FinanceRepository;
+HSPLcom/expensee/data/FinanceRepository;->getTransactionsForMonth(II)Lkotlinx/coroutines/flow/Flow;
+HSPLcom/expensee/data/FinanceRepository;->getBudgetsForMonth(II)Lkotlinx/coroutines/flow/Flow;
+HSPLcom/expensee/data/FinanceRepository;->getAllCategories()Lkotlinx/coroutines/flow/Flow;
+HSPLcom/expensee/data/FinanceRepository;->getUserProfile()Lkotlinx/coroutines/flow/Flow;
+Lcom/expensee/data/dao/TransactionDao;
+Lcom/expensee/data/dao/CategoryDao;
+Lcom/expensee/data/dao/BudgetDao;
+Lcom/expensee/data/dao/UserProfileDao;
+Lcom/expensee/data/model/TransactionEntity;
+Lcom/expensee/data/model/CategoryEntity;
+Lcom/expensee/data/model/BudgetEntity;
+Lcom/expensee/data/model/UserProfileEntity;
+Lcom/expensee/data/model/SavingsGoalEntity;
+Lcom/expensee/data/model/SubscriptionEntity;

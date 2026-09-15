@@ -1,0 +1,179 @@
+app/src/main/java/com/example/data/AppDatabase.kt:83:            CategoryEntity(name = "Rent", iconName = "home", colorHex = "#8B5CF6", type = "EXPENSE", isDefault = true),
+app/src/main/java/com/example/data/AppDatabase.kt:97:            CategoryEntity(name = "Business", iconName = "store", colorHex = "#8B5CF6", type = "INCOME", isDefault = true),
+app/src/main/java/com/example/ui/screens/OnboardingScreen.kt:73:import com.example.ui.theme.ModernPurpleGradientEnd
+app/src/main/java/com/example/ui/screens/OnboardingScreen.kt:74:import com.example.ui.theme.ModernPurpleGradientStart
+app/src/main/java/com/example/ui/screens/OnboardingScreen.kt:165:                                    if (isActive) ModernPurpleGradientStart
+app/src/main/java/com/example/ui/screens/OnboardingScreen.kt:263:                        containerColor = ModernPurpleGradientStart
+app/src/main/java/com/example/ui/screens/OnboardingScreen.kt:313:                                ModernPurpleGradientStart,
+app/src/main/java/com/example/ui/screens/OnboardingScreen.kt:314:                                ModernPurpleGradientEnd
+app/src/main/java/com/example/ui/screens/OnboardingScreen.kt:385:                    focusedBorderColor = ModernPurpleGradientStart,
+app/src/main/java/com/example/ui/screens/OnboardingScreen.kt:426:                tint = ModernPurpleGradientStart,
+app/src/main/java/com/example/ui/screens/OnboardingScreen.kt:490:                    color = if (isSelected) ModernPurpleGradientStart.copy(alpha = 0.15f) else MaterialTheme.colorScheme.surfaceVariant,
+app/src/main/java/com/example/ui/screens/OnboardingScreen.kt:493:                        if (isSelected) ModernPurpleGradientStart else Color.Transparent
+app/src/main/java/com/example/ui/screens/OnboardingScreen.kt:505:                            color = if (isSelected) ModernPurpleGradientStart else MaterialTheme.colorScheme.onSurface
+app/src/main/java/com/example/ui/screens/OnboardingScreen.kt:511:                            color = if (isSelected) ModernPurpleGradientStart else MaterialTheme.colorScheme.onSurface
+app/src/main/java/com/example/ui/screens/OnboardingScreen.kt:645:                    color = ModernPurpleGradientStart,
+app/src/main/java/com/example/ui/screens/OnboardingScreen.kt:654:                focusedBorderColor = ModernPurpleGradientStart,
+app/src/main/java/com/example/ui/screens/OnboardingScreen.kt:696:            color = ModernPurpleGradientStart.copy(alpha = 0.12f),
+app/src/main/java/com/example/ui/screens/OnboardingScreen.kt:697:            border = BorderStroke(1.dp, ModernPurpleGradientStart.copy(alpha = 0.25f))
+app/src/main/java/com/example/ui/screens/OnboardingScreen.kt:709:                        color = ModernPurpleGradientStart
+app/src/main/java/com/example/ui/screens/OnboardingScreen.kt:754:                    color = if (isSelected) ModernPurpleGradientStart.copy(alpha = 0.12f) else MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.5f),
+app/src/main/java/com/example/ui/screens/OnboardingScreen.kt:757:                        if (isSelected) ModernPurpleGradientStart else Color.Transparent
+app/src/main/java/com/example/ui/screens/OnboardingScreen.kt:777:                                        if (isSelected) ModernPurpleGradientStart else MaterialTheme.colorScheme.surface
+app/src/main/java/com/example/ui/screens/OnboardingScreen.kt:807:                                tint = ModernPurpleGradientStart,
+app/src/main/java/com/example/ui/screens/BudgetsScreen.kt:79:import com.example.ui.theme.ModernPurpleGradientStart
+app/src/main/java/com/example/ui/screens/BudgetsScreen.kt:167:                val tint = if (isOver) Color(0xFFEF4444) else ModernPurpleGradientStart
+app/src/main/java/com/example/ui/screens/BudgetsScreen.kt:171:                    if (isDark) Color(0xFF262235) else Color(0xFFEDE9FE)
+app/src/main/java/com/example/ui/screens/BudgetsScreen.kt:263:                        color = ModernPurpleGradientStart,
+app/src/main/java/com/example/ui/screens/BudgetsScreen.kt:299:                        color = ModernPurpleGradientStart,
+app/src/main/java/com/example/ui/screens/BudgetsScreen.kt:327:                                    .background(if (isDark) Color(0xFF262235) else Color(0xFFEDE9FE)),
+app/src/main/java/com/example/ui/screens/BudgetsScreen.kt:333:                                    tint = ModernPurpleGradientStart,
+app/src/main/java/com/example/ui/screens/BudgetsScreen.kt:379:                                                .background(if (isDark) Color(0xFF262235) else Color(0xFFEDE9FE)),
+app/src/main/java/com/example/ui/screens/BudgetsScreen.kt:385:                                                tint = ModernPurpleGradientStart,
+app/src/main/java/com/example/ui/screens/BudgetsScreen.kt:421:                                        color = ModernPurpleGradientStart,
+app/src/main/java/com/example/ui/screens/BudgetsScreen.kt:464:                                    .background(if (isDark) Color(0xFF262235) else Color(0xFFEDE9FE)),
+app/src/main/java/com/example/ui/screens/BudgetsScreen.kt:470:                                    tint = ModernPurpleGradientStart,
+app/src/main/java/com/example/ui/screens/BudgetsScreen.kt:495:                                colors = ButtonDefaults.buttonColors(containerColor = ModernPurpleGradientStart),
+app/src/main/java/com/example/ui/screens/BudgetsScreen.kt:534:                                            .background(if (isDark) Color(0xFF262235) else Color(0xFFEDE9FE)),
+app/src/main/java/com/example/ui/screens/BudgetsScreen.kt:540:                                            tint = ModernPurpleGradientStart,
+app/src/main/java/com/example/ui/screens/BudgetsScreen.kt:635:                                color = if (isOverOverallBudget) Color(0xFFEF4444) else ModernPurpleGradientStart,
+app/src/main/java/com/example/ui/screens/BudgetsScreen.kt:769:                                colors = ButtonDefaults.buttonColors(containerColor = ModernPurpleGradientStart),
+app/src/main/java/com/example/ui/screens/BudgetsScreen.kt:932:                            focusedBorderColor = ModernPurpleGradientStart,
+app/src/main/java/com/example/ui/screens/BudgetsScreen.kt:952:                    colors = ButtonDefaults.buttonColors(containerColor = ModernPurpleGradientStart)
+app/src/main/java/com/example/ui/screens/BudgetsScreen.kt:1000:                                color = if (isSelected) ModernPurpleGradientStart.copy(alpha = 0.15f) else Color.Transparent,
+app/src/main/java/com/example/ui/screens/BudgetsScreen.kt:1011:                                        tint = if (isSelected) ModernPurpleGradientStart else ModernTextSubtle,
+app/src/main/java/com/example/ui/screens/BudgetsScreen.kt:1018:                                        color = if (isSelected) ModernPurpleGradientStart else ModernTextDark
+app/src/main/java/com/example/ui/screens/BudgetsScreen.kt:1038:                            focusedBorderColor = ModernPurpleGradientStart,
+app/src/main/java/com/example/ui/screens/BudgetsScreen.kt:1058:                    colors = ButtonDefaults.buttonColors(containerColor = ModernPurpleGradientStart)
+app/src/main/java/com/example/ui/screens/DashboardScreen.kt:79:import com.example.ui.theme.ModernPurpleGradientEnd
+app/src/main/java/com/example/ui/screens/DashboardScreen.kt:80:import com.example.ui.theme.ModernPurpleGradientMid
+app/src/main/java/com/example/ui/screens/DashboardScreen.kt:81:import com.example.ui.theme.ModernPurpleGradientStart
+app/src/main/java/com/example/ui/screens/DashboardScreen.kt:131:                                ModernPurpleGradientStart,
+app/src/main/java/com/example/ui/screens/DashboardScreen.kt:132:                                ModernPurpleGradientMid,
+app/src/main/java/com/example/ui/screens/DashboardScreen.kt:531:                                            color = if (AppTheme.colors.isDark) Color(0xFFA78BFA) else Color(0xFF6D28D9)
+app/src/main/java/com/example/ui/screens/DashboardScreen.kt:566:                                color = ModernPurpleGradientMid,
+app/src/main/java/com/example/ui/screens/DashboardScreen.kt:593:                                color = if (AppTheme.colors.isDark) Color(0xFF262235) else Color(0xFFEDE9FE)
+app/src/main/java/com/example/ui/screens/DashboardScreen.kt:598:                                    color = if (AppTheme.colors.isDark) Color(0xFFA78BFA) else Color(0xFF7C3AED),
+app/src/main/java/com/example/ui/screens/DashboardScreen.kt:637:                            color = if (AppTheme.colors.isDark) Color(0xFF262235) else Color(0xFFEDE9FE),
+app/src/main/java/com/example/ui/screens/DashboardScreen.kt:644:                                    tint = if (AppTheme.colors.isDark) Color(0xFFA78BFA) else Color(0xFF7C3AED),
+app/src/main/java/com/example/ui/screens/DashboardScreen.kt:673:                val iconBg = if (isIncome) ModernIncomeBlueBg else if (AppTheme.colors.isDark) Color(0xFF262235) else Color(0xFFEDE9FE)
+app/src/main/java/com/example/ui/screens/DashboardScreen.kt:674:                val iconTint = if (isIncome) ModernIncomeBlue else if (AppTheme.colors.isDark) Color(0xFFA78BFA) else Color(0xFF7C3AED)
+app/src/main/java/com/example/ui/screens/DashboardScreen.kt:795:                    colors = ButtonDefaults.buttonColors(containerColor = ModernPurpleGradientStart)
+app/src/main/java/com/example/ui/screens/AnalyticsScreen.kt:73:import com.example.ui.theme.ModernPurpleGradientMid
+app/src/main/java/com/example/ui/screens/AnalyticsScreen.kt:142:                Color(0xFF8B5CF6), Color(0xFF38BDF8), Color(0xFF10B981),
+app/src/main/java/com/example/ui/screens/AnalyticsScreen.kt:326:                        color = if (!isDonutView) ModernPurpleGradientMid else Color.Transparent,
+app/src/main/java/com/example/ui/screens/AnalyticsScreen.kt:344:                        color = if (isDonutView) ModernPurpleGradientMid else Color.Transparent,
+app/src/main/java/com/example/ui/screens/AnalyticsScreen.kt:502:                                color = if (AppTheme.colors.isDark) Color(0xFF262235) else Color(0xFFEDE9FE),
+app/src/main/java/com/example/ui/screens/AnalyticsScreen.kt:747:                                    tint = Color(0xFF8B5CF6),
+app/src/main/java/com/example/ui/screens/SavingsAndGoalsScreen.kt:103:import com.example.ui.theme.ModernPurpleGradientEnd
+app/src/main/java/com/example/ui/screens/SavingsAndGoalsScreen.kt:104:import com.example.ui.theme.ModernPurpleGradientStart
+app/src/main/java/com/example/ui/screens/SavingsAndGoalsScreen.kt:220:                                        listOf(ModernPurpleGradientStart, ModernPurpleGradientEnd)
+app/src/main/java/com/example/ui/screens/SavingsAndGoalsScreen.kt:253:                            color = if (AppTheme.colors.isDark) Color(0xFF262235) else Color(0xFFEDE9FE)
+app/src/main/java/com/example/ui/screens/SavingsAndGoalsScreen.kt:262:                                    tint = ModernPurpleGradientStart,
+app/src/main/java/com/example/ui/screens/SavingsAndGoalsScreen.kt:270:                                    color = ModernPurpleGradientStart
+app/src/main/java/com/example/ui/screens/SavingsAndGoalsScreen.kt:312:                                color = ModernPurpleGradientStart
+app/src/main/java/com/example/ui/screens/SavingsAndGoalsScreen.kt:395:                            iconBg = if (AppTheme.colors.isDark) Color(0xFF262235) else Color(0xFFEDE9FE),
+app/src/main/java/com/example/ui/screens/SavingsAndGoalsScreen.kt:396:                            iconTint = ModernPurpleGradientStart,
+app/src/main/java/com/example/ui/screens/SavingsAndGoalsScreen.kt:426:                            iconBg = if (AppTheme.colors.isDark) Color(0xFF262235) else Color(0xFFEDE9FE),
+app/src/main/java/com/example/ui/screens/SavingsAndGoalsScreen.kt:427:                            iconTint = ModernPurpleGradientStart,
+app/src/main/java/com/example/ui/screens/SavingsAndGoalsScreen.kt:550:                            containerColor = ModernPurpleGradientStart
+app/src/main/java/com/example/ui/screens/SavingsAndGoalsScreen.kt:601:                                color = ModernPurpleGradientStart
+app/src/main/java/com/example/ui/screens/SavingsAndGoalsScreen.kt:609:                                .background(if (AppTheme.colors.isDark) Color(0xFF262235) else Color(0xFFEDE9FE)),
+app/src/main/java/com/example/ui/screens/SavingsAndGoalsScreen.kt:615:                                tint = ModernPurpleGradientStart,
+app/src/main/java/com/example/ui/screens/SavingsAndGoalsScreen.kt:689:                                            if (sub.active) (if (AppTheme.colors.isDark) Color(0xFF262235) else Color(0xFFEDE9FE)) else AppTheme.colors.chipBg
+app/src/main/java/com/example/ui/screens/SavingsAndGoalsScreen.kt:696:                                        tint = if (sub.active) ModernPurpleGradientStart else ModernTextSubtle,
+app/src/main/java/com/example/ui/screens/SavingsAndGoalsScreen.kt:724:                                        checkedTrackColor = ModernPurpleGradientStart,
+app/src/main/java/com/example/ui/screens/SavingsAndGoalsScreen.kt:775:                            containerColor = ModernPurpleGradientStart
+app/src/main/java/com/example/ui/screens/SavingsAndGoalsScreen.kt:864:                                            .background(if (AppTheme.colors.isDark) Color(0xFF262235) else Color(0xFFEDE9FE)),
+app/src/main/java/com/example/ui/screens/SavingsAndGoalsScreen.kt:870:                                            tint = ModernPurpleGradientStart,
+app/src/main/java/com/example/ui/screens/SavingsAndGoalsScreen.kt:921:                                    color = ModernPurpleGradientStart
+app/src/main/java/com/example/ui/screens/SavingsAndGoalsScreen.kt:933:                                color = ModernPurpleGradientStart,
+app/src/main/java/com/example/ui/screens/SavingsAndGoalsScreen.kt:946:                                    border = BorderStroke(1.dp, ModernPurpleGradientStart),
+app/src/main/java/com/example/ui/screens/SavingsAndGoalsScreen.kt:953:                                        color = ModernPurpleGradientStart
+app/src/main/java/com/example/ui/screens/SavingsAndGoalsScreen.kt:1005:                            color = if (isSelected) (if (AppTheme.colors.isDark) Color(0xFF262235) else Color(0xFFEDE9FE)) else AppTheme.colors.chipBg,
+app/src/main/java/com/example/ui/screens/SavingsAndGoalsScreen.kt:1008:                                if (isSelected) ModernPurpleGradientStart else ModernCardBorder
+app/src/main/java/com/example/ui/screens/SavingsAndGoalsScreen.kt:1024:                                                if (isSelected) ModernPurpleGradientStart else (if (AppTheme.colors.isDark) Color(0xFF334155) else Color(0xFFE2E8F0))
+app/src/main/java/com/example/ui/screens/SavingsAndGoalsScreen.kt:1055:                                        tint = ModernPurpleGradientStart,
+app/src/main/java/com/example/ui/screens/SavingsAndGoalsScreen.kt:1133:                    colors = ButtonDefaults.buttonColors(containerColor = ModernPurpleGradientStart),
+app/src/main/java/com/example/ui/screens/SavingsAndGoalsScreen.kt:1218:                    colors = ButtonDefaults.buttonColors(containerColor = ModernPurpleGradientStart),
+app/src/main/java/com/example/ui/screens/SavingsAndGoalsScreen.kt:1278:                                containerColor = if (cycle == "MONTHLY") ModernPurpleGradientStart else AppTheme.colors.chipBg,
+app/src/main/java/com/example/ui/screens/SavingsAndGoalsScreen.kt:1289:                                containerColor = if (cycle == "ANNUAL") ModernPurpleGradientStart else AppTheme.colors.chipBg,
+app/src/main/java/com/example/ui/screens/SavingsAndGoalsScreen.kt:1309:                    colors = ButtonDefaults.buttonColors(containerColor = ModernPurpleGradientStart),
+app/src/main/java/com/example/ui/screens/SavingsAndGoalsScreen.kt:1372:                    colors = ButtonDefaults.buttonColors(containerColor = ModernPurpleGradientStart),
+app/src/main/java/com/example/ui/screens/SavingsAndGoalsScreen.kt:1448:    actionTextColor: Color = ModernPurpleGradientStart,
+app/src/main/java/com/example/ui/screens/SavingsAndGoalsScreen.kt:1569:                checkedTrackColor = ModernPurpleGradientStart,
+app/src/main/java/com/example/ui/screens/TransactionsHistoryScreen.kt:53:import com.example.ui.theme.ModernPurpleGradientStart
+app/src/main/java/com/example/ui/screens/TransactionsHistoryScreen.kt:174:                    focusedBorderColor = ModernPurpleGradientStart,
+app/src/main/java/com/example/ui/screens/TransactionsHistoryScreen.kt:213:                            selectedContainerColor = if (AppTheme.colors.isDark) Color(0xFF262235) else Color(0xFFEDE9FE),
+app/src/main/java/com/example/ui/screens/TransactionsHistoryScreen.kt:214:                            selectedLabelColor = ModernPurpleGradientStart
+app/src/main/java/com/example/ui/screens/TransactionsHistoryScreen.kt:220:                            selectedBorderColor = ModernPurpleGradientStart
+app/src/main/java/com/example/ui/screens/TransactionsHistoryScreen.kt:237:                            selectedContainerColor = if (AppTheme.colors.isDark) Color(0xFF262235) else Color(0xFFEDE9FE),
+app/src/main/java/com/example/ui/screens/TransactionsHistoryScreen.kt:238:                            selectedLabelColor = ModernPurpleGradientStart
+app/src/main/java/com/example/ui/screens/TransactionsHistoryScreen.kt:244:                            selectedBorderColor = ModernPurpleGradientStart
+app/src/main/java/com/example/ui/components/CustomizeProfileSheet.kt:60:import com.example.ui.theme.ModernPurpleGradientStart
+app/src/main/java/com/example/ui/components/CustomizeProfileSheet.kt:143:                            .background(if (AppTheme.colors.isDark) Color(0xFF262235) else Color(0xFFEDE9FE)),
+app/src/main/java/com/example/ui/components/CustomizeProfileSheet.kt:149:                            tint = ModernPurpleGradientStart,
+app/src/main/java/com/example/ui/components/CustomizeProfileSheet.kt:202:                    focusedBorderColor = ModernPurpleGradientStart,
+app/src/main/java/com/example/ui/components/CustomizeProfileSheet.kt:238:                        color = if (isSelected) (if (AppTheme.colors.isDark) Color(0xFF262235) else ModernPurpleGradientStart.copy(alpha = 0.15f)) else AppTheme.colors.chipBg,
+app/src/main/java/com/example/ui/components/CustomizeProfileSheet.kt:241:                            if (isSelected) ModernPurpleGradientStart else ModernCardBorder
+app/src/main/java/com/example/ui/components/CustomizeProfileSheet.kt:255:                                tint = if (isSelected) ModernPurpleGradientStart else ModernTextSubtle,
+app/src/main/java/com/example/ui/components/CustomizeProfileSheet.kt:263:                                color = if (isSelected) ModernPurpleGradientStart else ModernTextDark
+app/src/main/java/com/example/ui/components/CustomizeProfileSheet.kt:292:                        color = ModernPurpleGradientStart,
+app/src/main/java/com/example/ui/components/CustomizeProfileSheet.kt:301:                    focusedBorderColor = ModernPurpleGradientStart,
+app/src/main/java/com/example/ui/components/CustomizeProfileSheet.kt:333:                        color = ModernPurpleGradientStart,
+app/src/main/java/com/example/ui/components/CustomizeProfileSheet.kt:342:                    focusedBorderColor = ModernPurpleGradientStart,
+app/src/main/java/com/example/ui/components/CustomizeProfileSheet.kt:375:                        color = if (isSelected) (if (AppTheme.colors.isDark) Color(0xFF262235) else ModernPurpleGradientStart.copy(alpha = 0.15f)) else AppTheme.colors.chipBg,
+app/src/main/java/com/example/ui/components/CustomizeProfileSheet.kt:378:                            if (isSelected) ModernPurpleGradientStart else ModernCardBorder
+app/src/main/java/com/example/ui/components/CustomizeProfileSheet.kt:389:                                color = if (isSelected) ModernPurpleGradientStart else ModernTextDark
+app/src/main/java/com/example/ui/components/CustomizeProfileSheet.kt:395:                                color = if (isSelected) ModernPurpleGradientStart else ModernTextDark
+app/src/main/java/com/example/ui/components/CustomizeProfileSheet.kt:424:                colors = ButtonDefaults.buttonColors(containerColor = ModernPurpleGradientStart)
+app/src/main/java/com/example/ui/components/AddTransactionSheet.kt:77:import com.example.ui.theme.ModernPurpleGradientEnd
+app/src/main/java/com/example/ui/components/AddTransactionSheet.kt:78:import com.example.ui.theme.ModernPurpleGradientStart
+app/src/main/java/com/example/ui/components/AddTransactionSheet.kt:482:                                tint = ModernPurpleGradientStart,
+app/src/main/java/com/example/ui/components/AddTransactionSheet.kt:521:                                .background(if (isToday) ModernPurpleGradientStart else AppTheme.colors.chipBg)
+app/src/main/java/com/example/ui/components/AddTransactionSheet.kt:524:                                    if (isToday) ModernPurpleGradientStart else ModernCardBorder,
+app/src/main/java/com/example/ui/components/AddTransactionSheet.kt:543:                                .background(if (!isToday) ModernPurpleGradientStart else AppTheme.colors.chipBg)
+app/src/main/java/com/example/ui/components/AddTransactionSheet.kt:546:                                    if (!isToday) ModernPurpleGradientStart else ModernCardBorder,
+app/src/main/java/com/example/ui/components/AddTransactionSheet.kt:581:                        color = if (isSelected) (if (AppTheme.colors.isDark) Color(0xFF262235) else Color(0xFFEDE9FE)) else ModernCardBg,
+app/src/main/java/com/example/ui/components/AddTransactionSheet.kt:585:                            color = if (isSelected) ModernPurpleGradientStart else ModernCardBorder
+app/src/main/java/com/example/ui/components/AddTransactionSheet.kt:598:                                tint = if (isSelected) ModernPurpleGradientStart else ModernTextSubtle,
+app/src/main/java/com/example/ui/components/AddTransactionSheet.kt:606:                                color = if (isSelected) ModernPurpleGradientStart else ModernTextDark
+app/src/main/java/com/example/ui/components/AddTransactionSheet.kt:634:                    focusedBorderColor = ModernPurpleGradientStart,
+app/src/main/java/com/example/ui/components/CommonComponents.kt:58:import com.example.ui.theme.FrostedPurplePill
+app/src/main/java/com/example/ui/components/CommonComponents.kt:242:            trackColor = FrostedPurplePill
+app/src/main/java/com/example/ui/components/CommonComponents.kt:276:    val badgeBg = if (isIncome) com.example.ui.theme.ModernIncomeBlueBg else (if (com.example.ui.theme.AppTheme.colors.isDark) Color(0xFF262235) else Color(0xFFEDE9FE))
+app/src/main/java/com/example/ui/components/MonthYearPickerSheet.kt:53:import com.example.ui.theme.ModernPurpleGradientEnd
+app/src/main/java/com/example/ui/components/MonthYearPickerSheet.kt:54:import com.example.ui.theme.ModernPurpleGradientStart
+app/src/main/java/com/example/ui/components/MonthYearPickerSheet.kt:233:                                                    listOf(ModernPurpleGradientStart, ModernPurpleGradientEnd)
+app/src/main/java/com/example/ui/components/MonthYearPickerSheet.kt:255:                                            isCurrentMonth -> ModernPurpleGradientStart.copy(alpha = 0.5f)
+app/src/main/java/com/example/ui/components/MonthYearPickerSheet.kt:324:                        color = ModernPurpleGradientStart
+app/src/main/java/com/example/ui/components/SetIncomeSheet.kt:70:import com.example.ui.theme.ModernPurpleGradientEnd
+app/src/main/java/com/example/ui/components/SetIncomeSheet.kt:71:import com.example.ui.theme.ModernPurpleGradientStart
+app/src/main/java/com/example/ui/theme/Color.kt:44:    activeNavTint = Color(0xFF7E3AF2),
+app/src/main/java/com/example/ui/theme/Color.kt:63:    activeNavTint = Color(0xFFA78BFA),
+app/src/main/java/com/example/ui/theme/Color.kt:98:val FrostedBrandViolet = Color(0xFF21005D) // Deep brand violet
+app/src/main/java/com/example/ui/theme/Color.kt:99:val FrostedPurplePrimary = Color(0xFF6750A4)
+app/src/main/java/com/example/ui/theme/Color.kt:100:val FrostedPurpleContainer = Color(0xFFEADDFF)
+app/src/main/java/com/example/ui/theme/Color.kt:101:val FrostedPurplePill = Color(0xFFE8DEF8)
+app/src/main/java/com/example/ui/theme/Color.kt:102:val FrostedPurpleActive = Color(0xFFD0BCFF)
+app/src/main/java/com/example/ui/theme/Color.kt:104:// Hero Card Gradient: from-[#D0BCFF] via-[#EADDFF] to-[#B0C4DE]
+app/src/main/java/com/example/ui/theme/Color.kt:105:val FrostedGradientStart = Color(0xFFD0BCFF)
+app/src/main/java/com/example/ui/theme/Color.kt:106:val FrostedGradientMid = Color(0xFFEADDFF)
+app/src/main/java/com/example/ui/theme/Color.kt:138:val ModernPurpleGradientStart = Color(0xFF7E3AF2)
+app/src/main/java/com/example/ui/theme/Color.kt:139:val ModernPurpleGradientMid = Color(0xFF8B5CF6)
+app/src/main/java/com/example/ui/theme/Color.kt:140:val ModernPurpleGradientEnd = Color(0xFFA78BFA)
+app/src/main/java/com/example/ui/theme/Color.kt:202:val AccentEmerald = FrostedPurplePrimary
+app/src/main/java/com/example/ui/theme/Color.kt:203:val AccentDarkEmerald = FrostedBrandViolet
+app/src/main/java/com/example/ui/theme/Color.kt:205:val AccentBlue = FrostedPurplePrimary
+app/src/main/java/com/example/ui/theme/Color.kt:206:val AccentPurple = FrostedPurplePrimary
+app/src/main/java/com/example/ui/theme/Color.kt:220:val LightSurfaceHigher = FrostedPurplePill
+app/src/main/java/com/example/ui/theme/Theme.kt:12:    primary = ModernPurpleGradientStart,
+app/src/main/java/com/example/ui/theme/Theme.kt:15:    onPrimaryContainer = Color(0xFFA78BFA),
+app/src/main/java/com/example/ui/theme/Theme.kt:16:    secondary = ModernPurpleGradientMid,
+app/src/main/java/com/example/ui/theme/Theme.kt:32:    primary = ModernPurpleGradientStart,
+app/src/main/java/com/example/ui/theme/Theme.kt:34:    primaryContainer = Color(0xFFEDE9FE),
+app/src/main/java/com/example/ui/theme/Theme.kt:35:    onPrimaryContainer = Color(0xFF6D28D9),
+app/src/main/java/com/example/ui/theme/Theme.kt:36:    secondary = ModernPurpleGradientMid,
+app/src/main/java/com/example/MainActivity.kt:76:import com.example.ui.theme.ModernPurpleGradientEnd
+app/src/main/java/com/example/MainActivity.kt:77:import com.example.ui.theme.ModernPurpleGradientStart
+app/src/main/java/com/example/MainActivity.kt:191:                                        listOf(ModernPurpleGradientStart, ModernPurpleGradientEnd)

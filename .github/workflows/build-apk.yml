@@ -1,0 +1,33 @@
+name: Build Expensee APK
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Expensee
+        uses: actions/checkout@v4
+
+      - name: Set up JDK
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - name: Make Gradle executable
+        run: chmod +x gradlew
+
+      - name: Build Expensee APK
+        run: ./gradlew assembleDebug
+
+      - name: Upload Expensee APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: Expensee-debug-apk
+          path: '**/build/outputs/apk/debug/*.apk'
